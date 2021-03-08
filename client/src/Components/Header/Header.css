@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.head__starter {
+  height: 10px;
+  background-image: linear-gradient(to right, #004e9a, #428cd4);
+}
+.head {
+  background-color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.head__content {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 17px;
+}
+
+.head__logo {
+  height: 25px;
+  object-fit: contain;
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+.head__brand {
+  color: #181818;
+  font-size: 1.875rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.head__description {
+  color: #282828;
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,48 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.input__root {
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.input {
+  /* background-color: yellowgreen; */
+  width: 70%;
+  height: 40px;
+  max-width: 800px;
+  font-size: 1.125rem;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 25px;
+  color: #282828;
+  margin: 20px;
+  box-shadow: 0 1px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 1.3px 3.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 1px 1px rgba(0, 0, 0, 0.12);
+}
+.input:focus {
+  outline: none;
+}
+
+.input__btn {
+  color: white;
+  background-image: linear-gradient(to right, #004e9a, #428cd4);
+  height: 40px;
+  padding: 10px 40px;
+  border: none;
+  font-size: 1.125rem;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 1px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 1.3px 3.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 1px 1px rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.input__btn:focus {
+  outline: none;
+}

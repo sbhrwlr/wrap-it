@@ -1,0 +1,8 @@
+.footer__root {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  color: #4b4b4b;
+}
