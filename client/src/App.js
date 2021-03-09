@@ -1,19 +1,12 @@
-/* eslint-disable new-cap */
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 import "./App.css";
 import Header from "./Components/Header/Header";
 import InputField from "./Components/InputField/InputField";
 import Footer from "./Components/Footer/Footer";
 import { useState } from "react";
-import axios from "axios";
-import wrapUrlService from "./Components/services/wrapUrlService";
 
 function App() {
   const [longUrl, setLongUrl] = useState("");
   const [urlValid, setUrlValid] = useState(false);
-  const [resutlUrl, setResultUrl] = useState("");
-  const [wrapUrlSvc, setWrapUrlService] = useState(new wrapUrlService());
 
   console.log(urlValid);
   const urlValidator = (value) => {

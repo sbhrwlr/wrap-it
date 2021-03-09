@@ -2,11 +2,12 @@ const express = require("express");
 const validUrl = require("valid-url");
 const shortid = require("shortid");
 const wrapUrl = require("../model/wrapUrl");
+const ev = require("dotenv").config();
 
 const app = express();
 const router = express.Router();
 
-const BASE_URL = "localhost:6202/";
+const BASE_URL = "https://wrapit.herokuapp.com/";
 
 router.route("/:hash").get((req, res) => {
   const urlCode = req.params.hash;
