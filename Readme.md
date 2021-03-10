@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/r-sabharwal/wrap-it/blob/master/client/build/logo.svg"/></p>
+<p align="center"><img src="https://github.com/r-sabharwal/wrap-it/blob/master/client/build/logo.svg" width="175"/></p>
 
 <hr>
 
