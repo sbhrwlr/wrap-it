@@ -44,6 +44,7 @@
   margin-top: 70px;
   margin-bottom: 20px;
   width: 100%;
+  user-select: none; /* Standard */
   border-radius: 20px;
   background-color: white;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -66,4 +67,7 @@
   margin-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
+}
+.copy__btn:focus {
+  outline: none;
 }

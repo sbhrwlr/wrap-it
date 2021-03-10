@@ -6,38 +6,85 @@
 
 .head__starter {
   height: 10px;
-  background-image: linear-gradient(to right, #004e9a, #428cd4);
+  background-image: linear-gradient(to right, #004e9a, #9b9b9b);
 }
 .head {
   background-color: #fff;
   padding-top: 5rem;
   padding-bottom: 5rem;
   text-align: center;
+  background: linear-gradient(to right, #1488cc, #2b32b2);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 .head__content {
+  color: whitesmoke;
   justify-content: center;
   display: flex;
   padding-bottom: 17px;
+  align-items: center;
 }
 
 .head__logo {
-  height: 25px;
+  color: whitesmoke;
+
+  height: 50px;
   object-fit: contain;
   padding: 5px;
-
   cursor: pointer;
 }
 
 .head__brand {
-  color: #181818;
+  color: whitesmoke;
   font-size: 1.875rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  padding: 5px;
+  padding-top: 10px;
 }
 
 .head__description {
-  color: #282828;
+  color: whitesmoke;
+
   font-size: 1.125rem;
   font-family: "Inter", sans-serif;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-2deg);
+  }
+  40%,
+  80% {
+    transform: rotate(1deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
