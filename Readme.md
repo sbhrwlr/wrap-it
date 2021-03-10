@@ -1,4 +1,5 @@
-<p align="center"></p>
+<p align="center"><img src="https://github.com/r-sabharwal/wrap-it/blob/master/client/build/logo.svg"/></p>
+
 <hr>
 
 ## Introduction
