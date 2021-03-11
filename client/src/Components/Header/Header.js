@@ -6,7 +6,7 @@ import "./Header.css";
 function Header() {
   return (
     <div data-testid="header" className="root">
-      <div className="head__starter"></div>
+      {/* <div className="head__starter"></div> */}
       <div className="head">
         <div className="head__content">
           <img className="head__logo" src={Logo} alt="Logo Icon" />

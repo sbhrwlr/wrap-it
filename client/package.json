@@ -15,6 +15,7 @@
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.3",
     "shortid": "^2.2.16",
     "tailwind-react-ui": "^0.8.1",
     "web-vitals": "^1.1.0"
