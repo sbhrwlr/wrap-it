@@ -46,3 +46,7 @@
 .input__btn:focus {
   outline: none;
 }
+.toastContainer {
+  background-color: #004e9a;
+  height: 100px;
+}
